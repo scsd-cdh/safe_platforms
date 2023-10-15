@@ -1,0 +1,15 @@
+name = "tms570lc_hal"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Thomas Pedneault"]
+maintainers = ["Thomas Pedneault <thomas@pedneault.dev>"]
+maintainers-logins = ["tpedneault"]
+[[depends-on]]
+tms570lc_config = "~0.1.0-dev"
+[[pins]]
+tms570lc_config = { path='../../configs/tms570lc_config' }
+[[depends-on]]
+hal = "~0.3.0"
+[[depends-on]]
+usb_embedded = "~0.3.0"
